@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "267221663257",
+    "firebase_url": "https://tour-mate-plus.firebaseio.com",
+    "project_id": "tour-mate-plus",
+    "storage_bucket": "tour-mate-plus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267221663257:android:a6a402721120fbe7",
+        "android_client_info": {
+          "package_name": "com.example.mitun.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267221663257-73abtfpag4srha0r7p853tbm2t1rqova.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNF36SCEd7m1Mu6wYkcah_n52vTKEx0AY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267221663257:android:f721ad41b20b01fc",
+        "android_client_info": {
+          "package_name": "com.example.tourmate.mostafijur.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267221663257-73abtfpag4srha0r7p853tbm2t1rqova.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNF36SCEd7m1Mu6wYkcah_n52vTKEx0AY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

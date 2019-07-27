@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpic_one"
+    android:orientation="vertical"
+    tools:context=".show_Event">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+        android:id="@+id/showEventNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#111"/>
+        <TextView
+            android:id="@+id/showEvnetBudgetID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Budget"
+            android:textSize="22dp"
+            android:textColor="#111"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <!--<TextView
+            android:id="@+id/eventprogressbarID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Budget"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>-->
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Create Date: "
+            android:textSize="22dp"
+            android:textColor="#111"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/eventcreatedateID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Start Date: "
+            android:textSize="22dp"
+            android:textColor="#111"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/eventstartdateID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+        <!--<Button
+            android:id="@+id/addMoreBudgetBTNID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add More Budget"
+            android:layout_weight="1"/>-->
+
+        <Button
+            android:id="@+id/addMoreExpenseBTNID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add More Expense"
+            android:background="@color/maincolor"
+            android:textAllCaps="false"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/showAllExpenseListBTNID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Show All Expense"
+            android:layout_marginRight="3dp"
+            android:background="@color/maincolor"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/maincolor"
+        android:textAllCaps="false"
+
+        >
+        <!--<Button
+            android:id="@+id/showAllExpenseListBTNID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show All Expense"
+            />-->
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/cameraBTNID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Moments"
+            android:layout_marginTop="3dp"
+            android:background="@color/maincolor"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+        <!--<Button
+            android:id="@+id/galleryBTNID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gallery"
+            android:layout_weight="1"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

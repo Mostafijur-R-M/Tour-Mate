@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateNewEventFragment">
+
+    <EditText
+        android:id="@+id/input_eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/input_createdDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Created Date"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/input_startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/input_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Budget"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/input_saveEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Event"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

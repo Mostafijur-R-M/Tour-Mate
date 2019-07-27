@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#aa1aad21"
+    tools:context=".SpashScreenActivity">
+
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/sppic" />
+    <ProgressBar
+        android:id="@+id/splash_screen_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/splash_screen_progress_bar"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="Welcome to Tour Mate"
+        android:textAlignment="center"
+        android:textColor="#e8f61133"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

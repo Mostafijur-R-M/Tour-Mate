@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpic_one"
+    android:orientation="vertical"
+    tools:context=".CreateNewEventActivity">
+
+    <EditText
+        android:id="@+id/input_eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/input_createdDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Create event date"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:onClick="eventCreateDatePicker"/>
+    <Button
+        android:id="@+id/input_startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select start event date"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:onClick="eventStartDatePicker"/>
+    <EditText
+        android:id="@+id/input_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Budget"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/input_saveEvent"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Event"
+        android:background="@color/maincolor"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
